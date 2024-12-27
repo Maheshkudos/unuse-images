@@ -91,7 +91,7 @@ register_deactivation_hook( __FILE__, 'deactivate_unuse_images' );
 // 	$plugin->run();
 
 // }
-// run_unuse_images();
+// run_unuse_images(); sdf
 function unues_image_script(){
     wp_enqueue_style( 'unuse-image-css', UNUSE_IMAGES_URL.'admin/css/unuse-images-admin.css', '1.0', true );
     wp_enqueue_script( 'unuse-image-script', UNUSE_IMAGES_URL.'admin/js/unuse-images-admin.js', array( 'jquery' ), '1.0', true );
@@ -108,7 +108,6 @@ function my_menu_pages(){
 function unuse_images_callback(){
     // echo "hello";
     // require UNUSE_IMAGES_DIR.'includes/unuse-images.php';
-
     require UNUSE_IMAGES_DIR.'includes/unuse-images-list.php';
 }
 
