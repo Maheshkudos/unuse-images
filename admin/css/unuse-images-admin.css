@@ -1,0 +1,15 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+.unuse-image-scan{
+    padding: 2px 20px;
+}
+.progress {
+    width: 0;
+    height: 20px;
+    background-color: green;
+}
+.hide {
+    display: none;
+}
